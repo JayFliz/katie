@@ -1,0 +1,24 @@
+Font: Helvetica at 16px @ 1.5 line height
+
+Background colour: #e7e0e7
+Light grey: #efefef
+Link color: #515151
+Link hover: #b96c9e
+Footer: #515151
+
+Left column: 260px
+Right column: 580px
+
+Icon size: 22px high by 42px wide
+
+
+Links:
+
+http://whatkatiedoes.net/portfolio/project/llustre-com/
+http://www.webbyawards.com/socialmediareport/
+http://www.teepee.io/
+http://www.voyseyandjones.co.uk/
+http://helpmewrite.co/
+http://www.simonscat.com/
+http://www.etsy.com/shop/whatkatiedoes
+http://www.dashwoodstudio.com/

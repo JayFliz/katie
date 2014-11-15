@@ -1,0 +1,157 @@
+body{
+
+	/*font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;*/
+
+
+	/* shorthand */
+
+	font: 400 14px/1.5 Helvetica, sans-serif;
+
+	background: #e7e0e7;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+article{
+
+	background: #efefef;
+	max-width: 960px;
+	padding: 50px;
+	margin: 50px auto;
+}
+
+header{
+
+	float: left;
+	width: 260px;
+}
+
+
+section{
+
+	float: right;
+	width: 580px;
+}
+
+footer{
+
+	/* force the footer to be below the section using clear property */
+	clear: both;
+	text-align: center;
+	color: #515151;
+	font-size: 12px;
+
+}
+
+nav{
+
+	margin-top: 80px;
+}
+
+nav a{
+
+	
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #515151;
+	display: block;
+
+}
+
+nav a:hover{
+
+	color: #b96c9e;
+
+}
+
+h2{
+
+	margin: 0 0 30px 0;
+}
+
+.social-icons{
+
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.social-icons a{
+
+	margin: 0 5px;
+}
+
+.project{
+
+	float: left;
+	margin: 0 0 30px 0;
+}
+
+/* simple grid method */
+.project:nth-child(even){
+
+	float: right;
+}
+
+@media screen and (max-width: 1024px){
+
+	header,
+	section{
+
+		float: none;
+		width: auto;
+	}
+
+	.project{
+
+		/* % widths to allow elements to be fluid on smaller viewports */
+		width: 48.75%;
+
+		/* make the bottom margin the same as the gutter using % */
+		margin-bottom: 2.5%;
+	}
+
+	.project img{
+
+		/* set the image to fill it's parent element ( the project div) */
+		width:100%;
+	}
+	
+	header,
+	h2{
+		text-align: center;
+
+	}
+
+	nav{
+
+		margin: 30px 0;
+
+	}
+
+	nav a{
+
+		font-size: 16px;
+		/* increase target size of links to be total of 34px high (44px is reccommened though) */
+		padding: 5px 0;
+	}
+
+	article{
+		
+		/* sweet spot for padding in the edges of mobile screen is 3-5% ie gap between project and edge of screen */
+		padding: 30px 2%;
+
+		/* add a margin to the outside of the article to let the background colour show */
+		margin: 2%;
+		
+	}
+
+	
+}
+
+
+
